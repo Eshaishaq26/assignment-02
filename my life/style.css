@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    box-sizing:border-box ;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(142, 169, 193);
+}
+body{
+    
+    overflow: auto;
+
+}
+.header{
+    background-color: rgb(255, 196, 199);
+    height:100vh;
+    width: 100%;   
+}
+.navbar{
+    padding: 15px 18px !important ;   
+}
+.logo{
+    font-weight: 600;
+    color: rgba(92, 22, 74, 0.848)!important;
+}
+.navitem{
+    margin: 0px 10px;
+    
+}
+.navitem .nav-link{
+    color:rgba(255, 255, 255, 0.92);
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+.home{
+     font-size:15px ;
+     font-weight: 400;
+     line-height: 25px;
+}
+
+.personalities{
+     font-size:15px ;
+     font-weight: 400;
+     line-height: 25px;
+
+}
+.Cities{
+     font-size:15px ;
+     font-weight: 400;
+     line-height: 25px;
+
+}
+.Touristspots{
+     font-size:15px ;
+     font-weight: 400;
+     line-height: 25px;
+
+}
+
+footer{
+    background-color: rgb(209, 128, 178);
+}
+.footercontainer{
+    width: 100%;
+    padding: 20px 20px 10px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(223, 233, 235);
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i {
+    font-size: 2em;
+    color: rgb(51, 121, 179);
+    opacity: 0.9;
+}
+.socialicons a :hover{
+    color: rgb(114, 25, 43);
+    transition: 0.5s;
+}
+.socialicons a :hover i{
+    color: black;
+    transition: 0.5s;
+}
+.footernav{
+    margin: 30px 0;
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: nonedisc;
+}
+.footernav ul li a{
+    color: whitesmoke;
+    margin: 10px ;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.3em ;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+    background-color: rgb(202, 224, 176);
+    padding: 20px 20px 30px 20px;
+    text-align:center ;
+}
+.footerbottom p{
+    color:whitesmoke;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media(max-width:600px){
+    .footernav ul{
+        flex-direction: column;
+
+    }
+    .footernav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+        padding:10px ;
+    }
+}
+
+
